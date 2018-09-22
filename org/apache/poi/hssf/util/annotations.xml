@@ -1,0 +1,5 @@
+<root>
+    <item name='org.apache.poi.hssf.util.CellReference'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
