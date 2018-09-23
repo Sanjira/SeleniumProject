@@ -14,11 +14,19 @@
 //import java.util.logging.Logger;
 
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+
+import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 import org.apache.poi.hssf.util.CellReference;
@@ -98,5 +106,19 @@ public class Base {
         return value;
     }
 
+    public void takeTheScreenshot(String testCaseName) throws Exception {
+        Thread.sleep(3000);
+        String screenShotLocation = "C:\\Users\\tariq\\Dropbox\\Amazon\\Buncee\\src\\test\\TestResult\\ScreenStot\\";
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HHmmss");
+        Date date = new Date();
+        String currentTime = dateFormat.format(date); //2016/11/16 12:08:43
+        System.out.println("---------------------"+currentTime);
 
+        TakesScreenshot scrShot =((TakesScreenshot)driver);
+        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile = new File(screenShotLocation + testCaseName + "_" + currentTime + ".png");
+//        File DestFile = new File(screenShotLocation);
+
+        FileUtils.copyFile(SrcFile, DestFile);
+    }
 }

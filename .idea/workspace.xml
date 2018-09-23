@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="920bf3d4-8667-478c-99ee-ba0b8ce3cee1" name="Default Changelist" comment="" />
+    <list default="true" id="920bf3d4-8667-478c-99ee-ba0b8ce3cee1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -66,12 +72,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="56" />
+          <entry key="java" value="184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="184" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -82,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/Support.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,19 +111,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buncee/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="272">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="399">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -111,8 +140,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="231">
+              <caret line="111" column="69" lean-forward="true" selection-start-line="111" selection-start-column="69" selection-end-line="111" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AccountPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -120,17 +158,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/SubBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+            <state relative-caret-position="534">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/LiveChatPage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AddressList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AddressBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -144,6 +191,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -153,25 +203,30 @@
         <option value="$PROJECT_DIR$/Application/src/test/java/ProductSearch.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/AccountPage.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Buncee/src/test/java/HomePage.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/HomePage.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/AddressBook.java" />
         <option value="$PROJECT_DIR$/Buncee/src/test/java/AddressBook.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/AddressList.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/ViewProfile.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/SubBase.java" />
         <option value="$PROJECT_DIR$/Buncee/src/test/java/EditProfile.java" />
         <option value="$PROJECT_DIR$/Buncee/pom.xml" />
-        <option value="$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml" />
         <option value="$PROJECT_DIR$/Buncee/src/test/java/Support.java" />
         <option value="$PROJECT_DIR$/Buncee/src/main/java/pageobject/LiveChatPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/Base.java" />
+        <option value="$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -200,6 +255,7 @@
     <option name="width" value="816" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -249,6 +305,51 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageobject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Buncee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Buncee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Buncee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Buncee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Buncee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResult" type="462c0819:PsiDirectoryNode" />
+              <item name="ScreenStot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +358,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537635729526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537721036975" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -341,27 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 21m 38s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 27m 18s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 36m 40s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 38m 20s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 41m 37s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 20h 59m 48s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 21h 02m 50s.xml">
-      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 21h 07m 33s.xml">
       <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -371,9 +451,30 @@
     <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.21 at 21h 16m 48s.xml">
       <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.22 at 18h 08m 08s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 06m 50s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 10m 07s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 22m 28s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 30m 24s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 35m 42s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_tariq_IdeaProjects_Amazon_Buncee_src_test_Resource_TestRunner_xml - 2018.09.23 at 11h 59m 34s.xml">
+      <configuration name="C:/Users/tariq/IdeaProjects/Amazon/Buncee/src/test/Resource/TestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="752" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -381,15 +482,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.204236" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.204236" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.31663975" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.18739903" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.22778675" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.20355412" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -397,7 +498,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.17473525" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.093797274" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -504,34 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AddressList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -543,13 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -567,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buncee/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -581,31 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/SubBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/Support.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -616,6 +654,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/SubBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AddressList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/test/Resource/TestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/main/java/pageobject/AccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/test/TestResult/ScreenStot/test_2018-09-23_113022.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="111" column="69" lean-forward="true" selection-start-line="111" selection-start-column="69" selection-end-line="111" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buncee/src/test/java/AccountFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>

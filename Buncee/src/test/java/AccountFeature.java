@@ -1,28 +1,38 @@
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class AccountFeature extends SubBase {
 
-    public AccountFeature() throws IOException { }
+    public AccountFeature() throws IOException {
+    }
 
-    @Test
-    public void login() throws InterruptedException {
+    @Test(priority = 1, enabled = true)
+    public void login() throws Exception {
 
-        loginToAccount();
+        try {
+            loginToAccount();
+
+        } catch (Exception e) {
+            //takeTheScreenshot("test");
+            takeTheScreenshot(new Object() {}.getClass().getEnclosingMethod().getName());
+
+        } finally {
+
+        }
 
     }
 
-    @Test
+
+    @Test(priority = 2, enabled = false)
     public void logout() throws InterruptedException {
         loginToAccount();
         logoutFromAccount();
     }
 
-
-
-//    @Test
+//    @Test (enabled = false)
 //    public void addAddress() throws InterruptedException {
 //
 //        loginToAccount();
@@ -32,18 +42,11 @@ public class AccountFeature extends SubBase {
 //
 //    }
 
-
-
-//
 //    @Test
 //    public void changeName() throws InterruptedException {
 //
 //
 //    }
-
-
-
-
 
 
 }
