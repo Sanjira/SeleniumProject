@@ -14,6 +14,7 @@ public class AccountFeature extends SubBase {
 
         try {
             loginToAccount();
+            System.out.println("Sanjira");
 
         } catch (Exception e) {
             //takeTheScreenshot("test");
