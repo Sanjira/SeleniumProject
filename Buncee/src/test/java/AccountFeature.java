@@ -14,7 +14,7 @@ public class AccountFeature extends SubBase {
 
         try {
             loginToAccount();
-            System.out.println("Sanjira");
+            //System.out.println("Sanjira");
 
         } catch (Exception e) {
             //takeTheScreenshot("test");
@@ -33,21 +33,6 @@ public class AccountFeature extends SubBase {
         logoutFromAccount();
     }
 
-//    @Test (enabled = false)
-//    public void addAddress() throws InterruptedException {
-//
-//        loginToAccount();
-//
-//
-//
-//
-//    }
-
-//    @Test
-//    public void changeName() throws InterruptedException {
-//
-//
-//    }
 
 
 }

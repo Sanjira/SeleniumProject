@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class SubBase extends Base {
 
-    public static String testDataFilePath="C:\\Users\\tariq\\IdeaProjects\\Amazon\\Buncee\\src\\test\\TestData\\test_data.xlsx";
+    public static String testDataFilePath="C:\\Users\\tariq\\Dropbox\\Amazon\\Buncee\\src\\test\\TestData\\test_data.xlsx";
 
     //Test Data
     public String userName = readFromExcel(testDataFilePath,"Account","B2");
@@ -77,6 +77,14 @@ public class SubBase extends Base {
         sendTestByXpath(AddressList.addFirstNameXpath, firstName);
         sendTestByXpath(AddressList.addLastNameXpath, lastName);
         clickByXpath(AddressList.clickOnAddSigh);
+        Thread.sleep(3000);
+
+    }
+
+    public void viewAddressFromAddressBook() throws InterruptedException{
+        clickByXpath(AddressList.addressBookLinkXpath);
+        clickByXpath(AddressList.clickInSearchFieldXpath);
+        sendTestByXpath(AddressList.clickInSearchFieldXpath,firstName);
         Thread.sleep(3000);
     }
 
